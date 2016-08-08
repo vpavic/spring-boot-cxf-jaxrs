@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.3.5.RELEASE'
+		springBootVersion = '1.3.7.RELEASE'
 	}
 
 	repositories {
@@ -20,9 +20,8 @@ targetCompatibility = '1.8'
 
 repositories {
 	jcenter()
-	maven { url 'http://repository.apache.org/snapshots' }
 }
 
 dependencies {
-	compile 'org.apache.cxf:cxf-spring-boot-starter-jaxrs:3.1.7-SNAPSHOT'
+	compile 'org.apache.cxf:cxf-spring-boot-starter-jaxrs:3.1.7'
 }
